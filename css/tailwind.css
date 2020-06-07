@@ -1,0 +1,21 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@font-face {
+  font-family: 'LeonSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../public/fonts/leonsans/LeonSans-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'LeonSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../public/fonts/leonsans/LeonSans-Bold.otf') format('opentype');
+}
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
