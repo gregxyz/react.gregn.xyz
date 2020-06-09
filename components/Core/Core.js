@@ -13,4 +13,5 @@ export default (blok) => {
   if (typeof Components[blok.component] !== 'undefined') {
     return React.createElement(Components[blok.component], { key: blok._uid, content: blok });
   }
+  return false;
 };
