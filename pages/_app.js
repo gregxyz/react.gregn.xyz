@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../css/tailwind.css';
+import '../scss/global.scss';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
