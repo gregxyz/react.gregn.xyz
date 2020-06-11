@@ -38,7 +38,6 @@ module.exports = {
     'template-curly-spacing': ['error', 'always'],
     'import/extensions': ['error', 'never'],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/require-default-props': 0,
     'react/jsx-one-expression-per-line': 'off',
     'react/no-danger': 'off',
     "import/extensions": 0,

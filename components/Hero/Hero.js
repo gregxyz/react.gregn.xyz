@@ -139,9 +139,17 @@ const Hero = (blok) => {
 };
 
 Hero.propTypes = {
-  blok: PropTypes.shape({
-    component: PropTypes.string,
-  }),
+  content: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    socialLinks: PropTypes.arrayOf(PropTypes.shape({
+      _uid: PropTypes.string,
+      name: PropTypes.string,
+      link: PropTypes.shape({
+        url: PropTypes.string,
+      }),
+    })),
+  }).isRequired,
 };
 
 export default Hero;
